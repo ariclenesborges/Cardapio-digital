@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+
+*{
+margin: 0;
+padding: 0;
+}
+
+
+
+
+
+body {
+background-color: #FFEDD5;    
+font-family: Arial, Helvetica, sans-serif;
+
+}
+ul{
+list-style:none ;   
+}
+    
+header {
+padding: 32px 0;
+text-align: center;
+
+}
+header, section {
+max-width: 300px;   
+margin: 0 auto;
+}
+header h1{
+margin-bottom: 4px;    
+}
+ 
+section h2 {
+background-color: #FED7AA;
+padding: 8PX 16PX;
+text-align:center;
+margin-bottom: 24px;
+}
+
+ul li {
+ margin-bottom: 16px;   
+ display: flex;  
+}
