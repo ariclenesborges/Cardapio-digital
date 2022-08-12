@@ -5,10 +5,14 @@
  margin:0;
  padding: 0;   
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
  
 
 body{
-font-family: Arial, Helvetica, sans-serif;
+font-family:'roboto', sans-serif ;
 background-color:#ffedd5;    
 }
 header{
@@ -18,10 +22,22 @@ max-width: 300px;
 padding: 32px 0;
 margin: auto;
 }
+header h1{
+margin-bottom:4px;    
+}
+header p{
+font-family: 'Roboto',sans-serif; 
+font-size: 14px;
 
+}
 span{    
 color: #995000;    
 }
+h1{
+ font-size: 28px;
+ font-family:'Roboto Serif',serif;   
+}
+
 
 section{
 border: 1px solid black;
@@ -31,6 +47,7 @@ margin-bottom: 24px;
 }
 h2{
 background-color: #fed7aa;
+font-size: 18px;
 border: 1px solid black;
 text-align: center;
 padding: 8px 16px;
@@ -47,6 +64,26 @@ display: flex;
 }
 li .details{
 max-width: 240px;    
+}
+.details h3{
+margin-bottom: 8px;    
+}
+h3{
+font-size:16px ;    
+}
+h1,h2,h3{
+font-family:'Roboto Serif',serif;
+
+/*text-transform: uppercase;*/
+
+}
+.description{
+font-family: 'Roboto' sans-serif; 
+font-size: 14px;   
+}
+strong{
+ font-family: 'Roboto Serif',serif; 
+ font-size: 16px;  
 }
 
 
